@@ -1,0 +1,231 @@
+@media (min-width: 1020px) {
+.contenedor{
+
+	
+	width: 97%;
+	display: block;
+	margin: auto;
+}
+span{
+	float: left;
+  	width: 0.7em;
+  	font-size: 400%;
+  	font-family: algerian, courier;
+  	line-height: 80%;
+  	background-color: blue;
+  	color: white;
+}
+#personal{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A3A3A3;
+	font-weight: normal;
+}
+#nombre{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 200%;
+	color: #221DEF;
+}
+#apellido{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 200%;
+	color: #1F2623;
+}
+h1{
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #39F431
+}
+ul {
+  list-style: none; /* Remove HTML bullets */
+    margin: 0;
+  }
+div{
+	text-align: center;
+}
+#experiencia{
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A3A3A3;
+	font-weight: normal;
+}
+#empresa{
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #A3A3A3;
+}
+#cargo{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #171B7F;	
+}
+#tareas{
+	text-align: justify;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#estudios{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #A3A3A3;
+}
+#titulo{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #58ACFA;
+
+}
+#photo{
+	text-align: right;
+}
+#sixty{
+	;float: left;
+	width: 60%;
+	text-align: left;
+}
+#fourty{
+	float: right;
+	width: 37%;
+	text-align: right;
+}
+aside h1{
+	color: black;
+	background-color: #424242;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#reference{
+	text-align: left;
+	font-weight:  bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.networks{
+	text-align:  left;
+}
+.fecha{
+	width: 20%;
+	float: left;
+}
+.descripcion{
+	width: 80%;
+	float: left;
+	text-align: left;
+}
+}
+
+@media (min-width: 400px) and (max-width: 999px) {
+	.contenedor{
+		
+	}
+	span{
+		float: left;
+		  width: 0.7em;
+		  font-size: 400%;
+		  font-family: algerian, courier;
+		  line-height: 80%;
+		  background-color: blue;
+		  color: white;
+          
+            font-size: 80px;
+	}
+	#personal{
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #A3A3A3;
+		font-weight: normal;
+        padding: 15px;
+        font-size: 10px;
+        padding: 20px;
+        text-align: left;
+	}
+	#nombre{
+		font-family: "Arial Black", Gadget, sans-serif;
+		font-size: 200%;
+		color: #221DEF;
+	}
+	#apellido{
+		font-family: "Arial Black", Gadget, sans-serif;
+		font-size: 200%;
+		color: #1F2623;
+	}
+	h1{
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color: #39F431
+	}
+	ul {
+	  list-style: none; /* Remove HTML bullets */
+		margin: 0;
+	  }
+	div{
+		text-align: center;
+	}
+	#experiencia{
+		text-align: left;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #A3A3A3;
+		font-weight: normal;
+	}
+	#empresa{
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color: #A3A3A3;
+	}
+	#cargo{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color: #171B7F;	
+	}
+	#tareas{
+		text-align: justify;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+	#estudios{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color: #A3A3A3;
+	}
+	#titulo{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		color: #58ACFA;
+	
+	}
+	#sixty{
+		
+		text-align: left;
+	}
+	#fourty{
+		
+		text-align: right;
+	}
+	aside h1{
+		color: black;
+		background-color: #424242;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	#reference{
+		text-align: left;
+		font-weight:  bold;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+	.networks{
+		text-align:  left;
+	}
+	.fecha{
+		width: 20%;
+		float: left;
+	}
+	.descripcion{
+		width: 80%;
+		float: left;
+		text-align: left;
+}
+	div[lang]{
+		float: right;
+		margin: top;
+		/*text-align: right;*/
+		position: absolute;
+		visibility: visible;
+        right:  20px;
+        top: 10px;
+        max-width: 100%;
+        height: auto;
+	}
+}
