@@ -1,0 +1,70 @@
+#startform{
+	width: 700px;
+  margin: 0 auto;
+}
+nav{
+	text-align: right;
+	text-transform: uppercase;
+}
+li{
+	list-style-type: none;
+}
+input{
+	width: 700px;
+	height: 30px;
+
+}
+form{
+	text-align: center;
+}
+
+textarea{
+	
+  width: 700px;
+  height: 200px;
+}
+button{
+	background-color:  #FF8000;
+	color: white;
+	font-size: 16px;
+}
+label{
+	float: left;
+	font-family: courier,arial,helvetica;
+	display: block;
+}
+button{
+	float: left;
+}
+a{
+	padding-right: 30px;
+}
+#uno{
+	font-weight: bold;
+	font-family: courier,arial,helvetica;
+	color: #FF0080;
+}
+#dos{
+	font-weight: bold;
+	font-family: courier,arial,helvetica;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+a{
+	font-weight: bold;
+	font-family: courier,arial,helvetica;
+	color: #FF0080;
+}
